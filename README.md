@@ -1,12 +1,13 @@
-# Q-Former Autoencoder: A Modern Framework for Medical Anomaly Detection
+# [WACV 2026] Q-Former Autoencoder: A Modern Framework for Medical Anomaly Detection
 
 [![arXiv](https://img.shields.io/badge/arXiv-2507.18481-b31b1b.svg)](https://arxiv.org/abs/2507.18481)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Official implementation of the paper **"Q-Former Autoencoder: A Modern Framework for Medical Anomaly Detection"**.
 
-**Abstract**
-Anomaly detection in medical images is an important yet challenging task due to the diversity of possible anomalies and the practical impossibility of collecting comprehensively annotated data sets. In this work, we tackle unsupervised medical anomaly detection by proposing a modernized autoencoder-based framework, the **Q-Former Autoencoder (QFAE)**. Our approach leverages state-of-the-art pretrained vision foundation models, such as DINO, DINOv2, and Masked Autoencoder, directly as frozen feature extractors. We introduce a Q-Former architecture as a bottleneck to efficiently aggregate multi-scale features and control reconstruction granularity. Additionally, we incorporate a perceptual loss computed using features from a pretrained Masked Autoencoder to guide reconstruction towards semantically meaningful structures.
+![QFAE model](./imgs/main_figure_QFAE.png)
+
+**Abstract** - Anomaly detection in medical images is an important yet challenging task due to the diversity of possible anomalies and the practical impossibility of collecting comprehensively annotated data sets. In this work, we tackle unsupervised medical anomaly detection by proposing a modernized autoencoder-based framework, the **Q-Former Autoencoder (QFAE)**. Our approach leverages state-of-the-art pretrained vision foundation models, such as DINO, DINOv2, and Masked Autoencoder, directly as frozen feature extractors. We introduce a Q-Former architecture as a bottleneck to efficiently aggregate multi-scale features and control reconstruction granularity. Additionally, we incorporate a perceptual loss computed using features from a pretrained Masked Autoencoder to guide reconstruction towards semantically meaningful structures.
 
 
 
