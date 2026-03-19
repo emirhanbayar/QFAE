@@ -101,13 +101,12 @@ We gratefully acknowledge the computational resources provided by [TÜBİTAK ULA
 
 
 ```bibtex
-@misc{dalmonte2025qformerautoencodermodernframework,
-      title={Q-Former Autoencoder: A Modern Framework for Medical Anomaly Detection}, 
-      author={Francesco Dalmonte and Emirhan Bayar and Emre Akbas and Mariana-Iuliana Georgescu},
-      year={2025},
-      eprint={2507.18481},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2507.18481}, 
+@InProceedings{Dalmonte_2026_WACV,
+    author    = {Dalmonte, Francesco and Bayar, Emirhan and Akbas, Emre and Georgescu, Mariana-Iuliana},
+    title     = {Q-Former Autoencoder: A Modern Framework for Medical Anomaly Detection},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {March},
+    year      = {2026},
+    pages     = {7985-7995}
 }
 ```
